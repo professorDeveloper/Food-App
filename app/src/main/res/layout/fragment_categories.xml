@@ -7,11 +7,11 @@
     >
 
     <androidx.recyclerview.widget.RecyclerView
-        tools:listitem="@layout/user_item"
+        tools:listitem="@layout/category_item"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/rv_user"
-
+        android:orientation="vertical"
+        android:id="@+id/categories_rv"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addUser"
+        android:id="@+id/addCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"

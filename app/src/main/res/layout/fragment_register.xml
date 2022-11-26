@@ -75,6 +75,7 @@
         android:layout_width="228dp"
         android:id="@+id/loginBtn"
         android:layout_height="59dp"
+        android:backgroundTint="@color/clicked"
         android:layout_marginTop="50dp"
         android:text="Login"
         android:textAllCaps="false"

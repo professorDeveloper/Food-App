@@ -18,7 +18,7 @@
 
     <ImageView
         android:background="?selectableItemBackgroundBorderless"
-        android:id="@+id/back"
+        android:id="@+id/backUser"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="10dp"
@@ -71,7 +71,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintStart_toEndOf="@+id/backUser"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -11,5 +11,4 @@ data class UserEntity(
     val img:Int,
     val login:String,
     val password:String,
-    val listCategory:String
 )

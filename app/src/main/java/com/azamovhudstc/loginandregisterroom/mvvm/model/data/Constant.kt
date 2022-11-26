@@ -12,7 +12,18 @@ class Constant private constructor(context: Context){
     fun getBool():Boolean{
         return sharedPreferences.getBoolean("bool",true)
     }
-
+    fun setLogin(boolean: Boolean){
+        sharedPreferences.edit().putBoolean("login",boolean).apply()
+    }
+    fun getLogin():Boolean{
+        return sharedPreferences.getBoolean("login",true)
+    }
+    fun setAdmin(boolean: Boolean){
+        sharedPreferences.edit().putBoolean("admin",boolean).apply()
+    }
+    fun getAdmin():Boolean{
+        return sharedPreferences.getBoolean("admin",true)
+    }
     companion object{
         private var instances:Constant?=null
 

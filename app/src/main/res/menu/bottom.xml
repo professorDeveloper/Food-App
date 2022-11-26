@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/tray"
+        android:title="Foods"
+
+        app:cnb_iconColor="#03A9F4"/>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Carts"
+        app:cnb_iconColor="@color/clicked"/>
+</menu>

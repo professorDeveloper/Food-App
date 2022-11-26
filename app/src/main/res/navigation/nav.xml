@@ -50,4 +50,30 @@
         android:id="@+id/usersFragment"
         android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.UsersFragment"
         android:label="UsersFragment" />
+    <fragment
+        android:id="@+id/addFoods"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.AddFood"
+        android:label="AddFood" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.CategoriesFragment"
+        android:label="CategoriesFragment" />
+    <fragment
+        android:id="@+id/editFood"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.EditFood"
+        android:label="EditFood" />
+    <fragment
+        android:id="@+id/userScreenFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.UserScreenFragment"
+        android:label="UserScreenFragment" />
+    <fragment
+        android:id="@+id/cartsFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.CartsFragment"
+        android:label="fragment_carts"
+        tools:layout="@layout/fragment_carts" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
 </navigation>

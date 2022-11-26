@@ -16,7 +16,7 @@
         android:layout_height="wrap_content">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
+            android:id="@+id/profile_imageImg"
             android:layout_width="75dp"
             android:layout_marginStart="10dp"
             android:layout_height="75dp"
@@ -32,30 +32,30 @@
             android:id="@+id/linearLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="15dp"
             android:layout_marginEnd="10dp"
             android:gravity="start"
             android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="@+id/profile_image"
-            app:layout_constraintStart_toEndOf="@+id/profile_image"
-            app:layout_constraintTop_toTopOf="@+id/profile_image">
+            app:layout_constraintBottom_toBottomOf="@+id/profile_imageImg"
+            app:layout_constraintStart_toEndOf="@+id/profile_imageImg"
+            app:layout_constraintTop_toTopOf="@+id/profile_imageImg">
 
             <TextView
-                android:id="@+id/name"
+                android:id="@+id/userNameTxt"
                 android:maxLines="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Akbaraliyev Rustam"
+                android:text="Hud Azamov"
                 android:textColor="#7b7b7b"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/phone"
+                android:id="@+id/userLoginTvt"
                 android:maxLines="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+998992803809"
+                android:text="Azamov hud"
                 android:textColor="#7b7b7b"
                 android:textSize="16sp" />
 

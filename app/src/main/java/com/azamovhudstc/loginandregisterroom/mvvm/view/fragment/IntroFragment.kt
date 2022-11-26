@@ -8,6 +8,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.azamovhudstc.loginandregisterroom.R
+import com.azamovhudstc.loginandregisterroom.mvvm.model.data.Constant
 import com.azamovhudstc.loginandregisterroom.mvvm.view.adapter.TaskSixAdapter
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
 
@@ -70,10 +71,23 @@ class IntroFragment : Fragment(R.layout.fragment_intro) {
 
         buttonAction.setOnClickListener {
             if (viewPager.currentItem != 2)
-                viewPager.currentItem ++
+                viewPager.currentItem++
             else
+                Constant.getInstance().setBool(false)
+            if (Constant.getInstance().getLogin()) {
                 findNavController().navigate(R.id.registerFragment)
-        }
+
+            } else if (Constant.getInstance().getAdmin()) {
+                findNavController().navigate(R.id.registerFragment)
+
+            } else if (!Constant.getInstance().getLogin())
+            {
+                findNavController().navigate(R.id.usersFragment)
+            }else if (!Constant.getInstance().getAdmin()){
+                findNavController().navigate(R.id.adminFragment)
+
+            }
+            }
 
         val dots = view.findViewById<WormDotsIndicator>(R.id.worm_dots_indicator)
         dots.attachTo(viewPager)

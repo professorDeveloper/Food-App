@@ -21,9 +21,20 @@ class SplashFragment : Fragment() {
        Handler().postDelayed({
            if (Constant.getInstance().getBool()) {
               findNavController().navigate(R.id.introFragment)
-           }else{
-               findNavController().navigate(R.id.registerFragment)
-           }
+           }else
+               if (Constant.getInstance().getLogin()) {
+                   findNavController().navigate(R.id.registerFragment)
+
+               } else if (Constant.getInstance().getAdmin()) {
+                   findNavController().navigate(R.id.registerFragment)
+
+               } else if (!Constant.getInstance().getLogin())
+               {
+                   findNavController().navigate(R.id.usersFragment)
+               }else if (!Constant.getInstance().getAdmin()){
+                   findNavController().navigate(R.id.adminFragment)
+
+               }
        },1000)
 
        return view

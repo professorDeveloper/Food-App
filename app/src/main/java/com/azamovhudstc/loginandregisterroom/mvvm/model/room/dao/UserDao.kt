@@ -1,12 +1,13 @@
 package com.azamovhudstc.loginandregisterroom.mvvm.model.room.dao
 
 import androidx.room.*
+import androidx.room.OnConflictStrategy.REPLACE
 import com.azamovhudstc.loginandregisterroom.mvvm.model.room.entity.UserEntity
 @Dao
 interface UserDao {
 
 
-    @Insert
+    @Insert(onConflict = REPLACE)
     fun addUser(userEntity: UserEntity)
 
 

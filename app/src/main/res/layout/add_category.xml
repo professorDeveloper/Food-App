@@ -19,36 +19,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+
+    <EditText
+        android:id="@+id/category_name"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginHorizontal="35dp"
+        android:background="@drawable/bg_edit"
+        android:hint="Category Name"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
-        <EditText
-            android:id="@+id/user_login"
-
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:layout_marginHorizontal="30dp"
-            android:background="@drawable/bg_edit"
-            android:hint="Category Name"
-            android:inputType="textPersonName"
-            android:paddingStart="15dp"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

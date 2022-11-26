@@ -2,15 +2,17 @@ package com.azamovhudstc.loginandregisterroom.mvvm.model.room.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.io.Serializable
 
 @Entity
 data class FoodEntity(
-    @PrimaryKey
-    var id:Int,
-    val name:String,
+    @PrimaryKey(autoGenerate = true)
+    var id:Int=0,
+    var name:String,
     val date:String,
-    val company:String,
-    val dateYaroq:String,
-    var price:Int,
-    val dona:Int,
-)
+    var company:String,
+    var dateYaroq:String,
+    var price:String,
+    var dona:String,
+    var category_id:Int
+):Serializable

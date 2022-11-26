@@ -4,23 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="12dp"
     app:cardBackgroundColor="@color/white"
     android:layout_marginHorizontal="30dp"
     android:layout_marginVertical="10dp"
-    android:layout_height="50dp">
+    android:layout_height="wrap_content">
 
-    <CheckBox
-        android:id="@+id/checkbox"
-        android:gravity="center"
-        android:layout_marginStart="30dp"
-        android:layout_gravity="start|center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sabzavotlar"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/categories_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginVertical="15dp"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:text="Sabzavotlar"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/delete_Category"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_baseline_delete_24"
+            app:layout_constraintBottom_toBottomOf="@+id/categories_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/categories_name"
+            app:tint="@color/purple_700" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.cardview.widget.CardView>
