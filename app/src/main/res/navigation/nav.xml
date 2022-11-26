@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav.xml"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.AdminFragment"
+        android:label="AdminFragment" />
+    <fragment
+        android:id="@+id/foodsFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.FoodsFragment"
+        android:label="fragment_foods"
+        tools:layout="@layout/fragment_foods" />
+    <fragment
+        android:id="@+id/addUser2"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.AddUser"
+        android:label="fragment_add_user"
+        tools:layout="@layout/add_user" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.IntroFragment"
+        android:label="IntroFragment" >
+        <action
+            android:id="@+id/action_introFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_introFragment"
+            app:destination="@id/introFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_usersFragment"
+            app:destination="@id/usersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.azamovhudstc.loginandregisterroom.mvvm.view.fragment.UsersFragment"
+        android:label="UsersFragment" />
+</navigation>

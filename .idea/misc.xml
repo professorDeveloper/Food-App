@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_24.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/drawable/bg_circl_button.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/drawable/edittext_bg.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/drawable/login_bg.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/activity_main.xml" value="0.27708333333333335" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/add_category.xml" value="0.29010416666666666" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/add_food.xml" value="0.2866666666666667" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/add_user.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_admin.xml" value="0.27708333333333335" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_foods.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_home.xml" value="0.1375" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_intro.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_register.xml" value="0.1745454484923814" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_splash.xml" value="0.27708333333333335" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_user.xml" value="0.1375" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_user_panel.xml" value="0.27708333333333335" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/fragment_users.xml" value="0.2866666666666667" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/page_1.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/page_2.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/page_3.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/select_categorys.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/layout/user_item.xml" value="0.2866666666666667" />
+        <entry key="..\:/AndroidStudioProjects/LoginAndRegisterRoom/app/src/main/res/menu/bottom_naw.xml" value="0.2911458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

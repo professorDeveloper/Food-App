@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FoodAppRoom</string>
+
+    <!-- Task 2 -->
+    <string name="task_2_title_1">100 % SAFETY GUARANTEE</string>
+    <string name="task_2_description_1">all your money will be treated in a safe way.</string>
+    <string name="task_2_title_2">HIGH RETRIBUTION</string>
+    <string name="task_2_description_2">our product ensure that your investment\nwill get a high rate of return</string>
+    <string name="task_2_title_3">EXPENSIVE AT ANY TIME</string>
+    <string name="task_2_description_3">whenever you need money.\nyou can free feel to take it at any time</string>
+
+    <!-- Task 6 -->
+    <string name="task_6_title_1">Order Your Food</string>
+    <string name="task_6_description_1">Now you can order food any time\nright from your mobile.</string>
+    <string name="task_6_title_2">Cooking Safe Food</string>
+    <string name="task_6_description_2">We are maintain safety and We keep\nclean while making food</string>
+    <string name="task_6_title_3">Quick Delivery</string>
+    <string name="task_6_description_3">Orders your favourite meals will\n be immediately deliver.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

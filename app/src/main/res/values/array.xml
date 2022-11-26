@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colorsOfFood">
+        <item>
+            Qora
+        </item>
+        <item>
+            Ko`k
+        </item>
+        <item>
+            Yashil
+        </item>
+        <item>
+            Qizil
+        </item>
+        <item>
+            Havorang
+        </item>
+        <item>
+            Gold
+        </item>
+        <item>
+            Binafsha
+        </item>
+        <item>
+            Pushti
+        </item>
+    </array>
+</resources>
