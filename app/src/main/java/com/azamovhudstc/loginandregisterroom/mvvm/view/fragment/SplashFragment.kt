@@ -30,7 +30,7 @@ class SplashFragment : Fragment() {
 
                } else if (!Constant.getInstance().getLogin())
                {
-                   findNavController().navigate(R.id.usersFragment)
+                   findNavController().navigate(R.id.userScreenFragment)
                }else if (!Constant.getInstance().getAdmin()){
                    findNavController().navigate(R.id.adminFragment)
 

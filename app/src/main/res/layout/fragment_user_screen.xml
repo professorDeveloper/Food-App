@@ -26,7 +26,7 @@
         android:layout_marginBottom="10dp"
         android:clickable="false"
         app:cnb_iconSize="28dp"
-        app:cnb_menuResource="@menu/bottom_naw"
+        app:cnb_menuResource="@menu/bottom"
         app:cnb_orientationMode="horizontal"
         app:itemTextAppearanceActive="@dimen/design_bottom_navigation_active_text_size"
         app:itemTextAppearanceInactive="@dimen/design_bottom_navigation_text_size"

@@ -30,6 +30,7 @@ class UserFragment : Fragment(), FoodsAdapterUser.OnFoodClick {
         var database = AppDatabase.getInstance().getFoodDao().getAllUser()
         var adapter =
             FoodsAdapterUser(database as ArrayList<FoodEntity> ,this)
+        user_for_food_rv.adapter=adapter
     }
 
     override fun showDialog(categoryEntity: FoodEntity) {
@@ -38,8 +39,8 @@ class UserFragment : Fragment(), FoodsAdapterUser.OnFoodClick {
         bottoshSheetDialog.setContentView(view)
 
         view.deleteFood.setImageResource(R.drawable.ic_baseline_shopping_cart_24)
-        view.PriceFood.text = "Price : ${categoryEntity.price}"
-        view.CountFood.text = "Soni : ${categoryEntity.dona}"
+        view.PriceFood.text = "Price : ${categoryEntity.price} $"
+        view.CountFood.text = "Soni : ${categoryEntity.dona} ta "
         view.CreateFood.text = "Chiqarilgan sana : ${categoryEntity.date}"
         view.CompanyFood.text = "Fabrika nomi : ${categoryEntity.company}"
         view.WorkDate.text = "Yaroqli muddati : ${categoryEntity.dateYaroq}"
